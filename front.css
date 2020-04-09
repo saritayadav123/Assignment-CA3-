@@ -1,0 +1,77 @@
+body
+{
+margin: 0 auto;
+background: url("back.jpg") no-repeat;
+background-size: 100%;
+}
+
+.signup
+{
+width: 500px;
+height:525px;
+text-align: center;
+margin:0 auto;
+background: url("./lock.jpg") no-repeat;
+background-size:cover;
+opacity:0.7;
+margin-top:120px;
+border-radius:20px;
+}
+
+input[type="text"],input[type="email"],input[type="password"]
+{
+margin-top:20px;
+height:45px;
+width:300px;
+font-size:20px;
+margin-bottom:20px;
+background-color:#fff;
+padding-left:40px;
+}
+
+.form-input::before
+{
+content:"\f007";
+font-family:"FontAwesome";
+padding-left:07px;
+padding-top:25px;
+position:absolute;
+font-size:35px;
+color:#2981bc;
+}
+
+
+.form-input:nth-child(3)::before
+{
+content:"\f023";
+}
+.form-input:nth-child(4)::before
+{ 
+content:"\f023";
+}
+
+
+
+.btn-signup
+{
+margin-top: 20px;
+margin-bottom:20px;
+padding: 10px;
+cursor:pointer;
+font-size:20px;
+font-family:"FontAwesome";
+color: #fff;
+background-color:#ff3300;
+border-radius:10px;
+}
+.signup a
+{
+padding:10px;
+text-decoration: none;
+color: #fff;
+font-size: 20px;
+font-family: "FontAwesome";
+border-radius : 10px;
+background-color:#ff3300;
+}
+
